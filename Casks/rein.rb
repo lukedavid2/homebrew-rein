@@ -2,8 +2,7 @@ cask "rein" do
   version "1.0.0"
   sha256 "e1dbf5f721768b56a2682adc11299deb8b3d2bace1ad24a7f3032d3cced258d0"
 
-  url "https://github.com/lukedavid2/rein-releases/releases/download/v#{version}/Rein.dmg",
-      verified: "github.com/lukedavid2/rein-releases/"
+  url "https://github.com/lukedavid2/rein-releases/releases/download/v#{version}/Rein.dmg"
   name "Rein"
   desc "Menu bar panel for keep-awake, fans, charge limit, audio and displays"
   homepage "https://undercoverzest.app/rein/"
@@ -15,7 +14,7 @@ cask "rein" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Rein.app"
 
