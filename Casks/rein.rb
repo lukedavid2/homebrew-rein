@@ -1,6 +1,6 @@
 cask "rein" do
-  version "1.0.1"
-  sha256 "40cd326ab91b081cbcd579499e0704435061036a0a64c7a4e931ad3c019baff6"
+  version "1.0.2"
+  sha256 "d6aa2cda69740fd098ac58d3ee0dd0eb2007b6347bbd1d42ae4a975a0008000e"
 
   url "https://github.com/lukedavid2/rein-releases/releases/download/v#{version}/Rein.dmg"
   name "Rein"
